@@ -1,0 +1,25 @@
+{
+    "name": "yusufthedragon/shipper-php",
+    "type": "library",
+    "description": "PHP Clients for Shipper API",
+    "version": "0.1.0",
+    "keywords": [
+        "shipper"
+    ],
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Yusuf The Dragon",
+            "email": "yusufardi96@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "guzzlehttp/guzzle": "^7.0.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Shipper\\": "src/"
+        }
+    }
+}
