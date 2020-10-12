@@ -59,7 +59,7 @@ class Shipper
     public static function setProductionMode(bool $value) : self
     {
         if ($value) {
-            self::$baseUrl = 'https://api.shipper.id/public/v1';
+            self::$baseUrl = 'https://api.shipper.id/prod/public/v1';
         }
 
         return new self;
