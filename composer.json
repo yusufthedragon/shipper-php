@@ -2,7 +2,7 @@
     "name": "yusufthedragon/shipper-php",
     "type": "library",
     "description": "PHP Clients for Shipper API",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "keywords": [
         "shipper"
     ],
@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": ">=6.0"
     },
     "autoload" : {
         "psr-4" : {

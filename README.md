@@ -43,7 +43,7 @@ Unofficial library for access [Shipper](http://shipper.id) API from applications
 
 ## Installation
 
-Install shipper-api with composer by following command:
+Install shipper-php with composer by following command:
 
 ```bash
 composer require yusufthedragon/shipper-php
@@ -529,4 +529,4 @@ For example, if order is not found when create a pickup request, `ClientExceptio
 
 ## Contributing
 
-For any requests, bugs, or comments, please open an [issue](https://github.com/yusufthedragon/shipper-api/issues) or [submit a pull request](https://github.com/yusufthedragon/shipper-api/pulls).
+For any requests, bugs, or comments, please open an [issue](https://github.com/yusufthedragon/shipper-php/issues) or [submit a pull request](https://github.com/yusufthedragon/shipper-php/pulls).

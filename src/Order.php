@@ -212,7 +212,7 @@ class Order
     }
 
     /**
-     * Get the Tracking ID based on subGPL-3.0-onlyted Order ID.
+     * Get the Tracking ID based on submitted Order ID.
      *
      * @param  string  $id
      * @return object

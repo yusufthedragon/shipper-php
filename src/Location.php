@@ -50,7 +50,7 @@ class Location
     }
 
     /**
-     * Retrieve cities based on subGPL-3.0-onlyted province ID.
+     * Retrieve cities based on province ID.
      *
      * @param  int  $provinceId
      * @return object
@@ -81,7 +81,7 @@ class Location
     }
 
     /**
-     * Retrieve suburbs based on subGPL-3.0-onlyted city ID.
+     * Retrieve suburbs based on submitted city ID.
      *
      * @param  int  $cityId
      * @return object
@@ -98,7 +98,7 @@ class Location
     }
 
     /**
-     * Retrieve areas based on subGPL-3.0-onlyted suburb ID.
+     * Retrieve areas based on submitted suburb ID.
      *
      * @param  int  $suburbId
      * @return object
@@ -115,7 +115,7 @@ class Location
     }
 
     /**
-     * Retrieve every area, suburb, and city whose names include the subGPL-3.0-onlyted substring (including postcode).
+     * Retrieve every area, suburb, and city whose names include the submitted substring (including postcode).
      *
      * @param  string  $substring
      * @return object
