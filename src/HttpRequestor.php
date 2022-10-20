@@ -89,12 +89,16 @@ class HttpRequestor
         $requestQueries = self::setQueries($additionalQueries);
         $requestBody = self::setBody($additionalData);
         $httpClient = self::getHttpClient();
-
-        $response = $httpClient->request($httpMethod, $apiEndpoint, [
+        $guzzleOptions = [
             'headers' => $requestHeaders,
             'query' => $requestQueries,
-            'body' => json_encode($requestBody)
-        ]);
+        ];
+
+        if (count($requestBody) > 0) {
+            $guzzleOptions['body'] = json_encode($requestBody);
+        }
+
+        $response = $httpClient->request($httpMethod, $apiEndpoint, $guzzleOptions);
 
         return $response->getBody()->getContents();
     }
